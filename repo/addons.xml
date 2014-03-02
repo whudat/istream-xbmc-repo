@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.istream" name="iSTREAM XBMC Addons Repository" version="1.0" provider-name="iSTREAM">
+	<extension point="xbmc.addon.repository" name="iSTREAM">
+		<info compressed="false">http://istream-xbmc-repo.googlecode.com/svn/repo/addons.xml</info>
+		<checksum>http://istream-xbmc-repo.googlecode.com/svn/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://istream-xbmc-repo.googlecode.com/svn/repo/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>iSTREAM XBMC Addons and Extensions</summary>
+		<description>iSTREAM XBMC Addons and Extensions</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.icechannel" version="0.0.6.24" name="iSTREAM" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+		<import addon="script.module.universal" version="0.0.1" />
+		<import addon="script.module.beautifulsoup" version="0.0.1"/>
+		<import addon="script.module.metahandler" version="0.0.1"/>
+		<import addon="script.module.feedparser" version="0.0.1"/>
+		<import addon="script.module.pyamf" version="0.0.1"/>
+		<import addon="script.icechannel.extn.common" version="0.0.1"/>
+    </requires>
+	<extension point="xbmc.python.pluginsource" library="plugin.py" >
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension library="service.py" point="xbmc.service"  start="startup"/>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">iSTREAM</summary>
+		<description lang="en">iSTREAM</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+
+<addon id="script.icechannel.extn.common" version="0.0.4" name="iSTREAM - Common" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension library="default.py" point="xbmc.service" />
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">iSTREAM - Common</summary>
+		<description lang="en">iSTREAM - Common</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+
+<addon id="script.icechannel.extn.uk" version="0.0.2" name="iSTREAM - United Kingdom" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension library="default.py" point="xbmc.service" />
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">iSTREAM - United Kingdom</summary>
+		<description lang="en">iSTREAM - United Kingdom</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+</addons>
