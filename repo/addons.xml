@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="0.0.6.35" name="iSTREAM" provider-name="iSTREAM">
+<addon id="script.icechannel" version="0.0.6.36" name="iSTREAM" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="0.0.1"/>
@@ -42,7 +42,7 @@
     </extension>
 </addon>
 
-<addon id="script.icechannel.extn.common" version="0.0.5" name="iSTREAM - Common" provider-name="iSTREAM">
+<addon id="script.icechannel.extn.common" version="0.0.6" name="iSTREAM - Common" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
