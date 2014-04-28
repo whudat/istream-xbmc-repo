@@ -79,7 +79,7 @@
 </addon>
 
 <addon id="script.icechannel.theme.xunity" version="0.0.1" name="iStream Theme - Xunity" provider-name="iStream">
-<extension point="xbmc.python.pluginsource" library="default.py" />
+<extension library="default.py" point="xbmc.service" />
 <extension point="xbmc.addon.metadata">
 <summary lang="en">iStream Theme - Xunity</summary>
 <description lang="en">iStream Theme - Xunity</description>
@@ -94,7 +94,7 @@
 </addon>
 
 <addon id="script.icechannel.theme.xunityhd" version="0.0.1" name="iStream Theme - Xunity HD" provider-name="iStream">
-<extension point="xbmc.python.pluginsource" library="default.py" />
+<extension library="default.py" point="xbmc.service" />
 <extension point="xbmc.addon.metadata">
 <summary lang="en">iStream Theme - Xunity HD</summary>
 <description lang="en">iStream Theme - Xunity HD</description>
