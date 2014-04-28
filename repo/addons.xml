@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="0.0.6.50" name="iSTREAM" provider-name="iSTREAM">
+<addon id="script.icechannel" version="0.0.8.5" name="iSTREAM" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="0.0.1"/>
@@ -22,7 +22,7 @@
 		<import addon="script.module.metahandler" version="0.0.1"/>
 		<import addon="script.module.feedparser" version="0.0.1"/>
 		<import addon="script.module.pyamf" version="0.0.1"/>
-		<import addon="script.icechannel.extn.common" version="0.0.1"/>
+		<import addon="script.icechannel.extn.common" version="0.0.9"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py" >
 		<provides>video</provides>
@@ -42,7 +42,7 @@
     </extension>
 </addon>
 
-<addon id="script.icechannel.extn.common" version="0.0.8" name="iSTREAM - Common" provider-name="iSTREAM">
+<addon id="script.icechannel.extn.common" version="0.1.0" name="iSTREAM - Common" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -76,5 +76,35 @@
 		<source></source>
 		<email></email>
     </extension>
+</addon>
+
+<addon id="script.icechannel.theme.xunity" version="0.0.1" name="iStream Theme - Xunity" provider-name="iStream">
+<extension point="xbmc.python.pluginsource" library="default.py" />
+<extension point="xbmc.addon.metadata">
+<summary lang="en">iStream Theme - Xunity</summary>
+<description lang="en">iStream Theme - Xunity</description>
+<platform></platform>
+<language></language>
+<license></license>
+<forum></forum>
+<website></website>
+<source></source>
+<email></email>
+</extension>
+</addon>
+
+<addon id="script.icechannel.theme.xunityhd" version="0.0.1" name="iStream Theme - Xunity HD" provider-name="iStream">
+<extension point="xbmc.python.pluginsource" library="default.py" />
+<extension point="xbmc.addon.metadata">
+<summary lang="en">iStream Theme - Xunity HD</summary>
+<description lang="en">iStream Theme - Xunity HD</description>
+<platform></platform>
+<language></language>
+<license></license>
+<forum></forum>
+<website></website>
+<source></source>
+<email></email>
+</extension>
 </addon>
 </addons>
