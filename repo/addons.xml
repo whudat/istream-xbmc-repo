@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="0.0.8.9" name="iSTREAM" provider-name="iSTREAM">
+<addon id="script.icechannel" version="0.0.9.0" name="iSTREAM" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="0.0.1"/>
@@ -23,6 +23,9 @@
 		<import addon="script.module.feedparser" version="0.0.1"/>
 		<import addon="script.module.pyamf" version="0.0.1"/>
 		<import addon="script.icechannel.extn.common" version="0.0.9"/>
+		<import addon="script.module.unidecode" version="0.0.1"/>
+		<import addon="script.module.socksipy" version="0.0.1"/>
+		<import addon="script.module.dnspython" version="0.0.1"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py" >
 		<provides>video</provides>
@@ -106,5 +109,69 @@
 <source></source>
 <email></email>
 </extension>
+</addon>
+
+<addon id="script.module.dnspython" name="DNS Python" version="1.11.1" provider-name="dnspython">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+	<summary>A Pure Python DNS module</summary>
+	<description>A Pure Python DNS module</description>
+    <platform>all</platform>
+	<language></language>
+	<license></license>
+	<forum></forum>
+	<website>http://www.dnspython.org/</website>
+	<source>https://github.com/rthalley/dnspython</source>
+	<email></email>
+  </extension>
+</addon>
+
+<addon id="script.module.socksipy"
+       name="SocksiPy"
+       version="2.0.0"
+       provider-name="Mossy">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>A Python SOCKS client module</summary>
+    <description>Provides a socket-like interface that supports connections to any TCP service through the use of a SOCKS4, SOCKS5 or HTTP proxy. For usage see http://code.google.com/p/socksipy-branch/</description>
+    <license>BSD</license>
+    <platform>all</platform>
+	<forum></forum>
+	<language></language>
+	<website>https://github.com/brendoncrawford/socksipy-x</website>
+	<source>https://github.com/brendoncrawford/socksipy-x</source>
+	<email></email>
+  </extension>
+</addon>
+
+<addon id="script.module.unidecode"
+       name="Unidecode"
+       version="0.4.14"
+       provider-name="Pypi">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python Unidecode  module</summary>
+    <description>ASCII transliterations of Unicode text</description>
+    <license></license>
+    <platform>all</platform>
+	<forum></forum>
+	<language></language>
+	<website>https://pypi.python.org/pypi/Unidecode</website>
+	<source>https://pypi.python.org/pypi/Unidecode</source>
+	<email></email>
+  </extension>
 </addon>
 </addons>
