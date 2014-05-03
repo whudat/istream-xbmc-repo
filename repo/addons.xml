@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="0.0.9.0" name="iSTREAM" provider-name="iSTREAM">
+<addon id="script.icechannel" version="0.0.9.1" name="iSTREAM" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="0.0.1"/>
@@ -26,6 +26,7 @@
 		<import addon="script.module.unidecode" version="0.0.1"/>
 		<import addon="script.module.socksipy" version="0.0.1"/>
 		<import addon="script.module.dnspython" version="0.0.1"/>
+		<import addon="script.module.f4mproxy" version="0.0.1"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py" >
 		<provides>video</provides>
@@ -126,6 +127,21 @@
 	<website>http://www.dnspython.org/</website>
 	<source>https://github.com/rthalley/dnspython</source>
 	<email></email>
+  </extension>
+</addon>
+
+<addon id="script.module.f4mproxy"
+	     name="f4m proxy"
+	     version="1.0.14"
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
 
