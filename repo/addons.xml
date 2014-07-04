@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="0.0.9.5" name="iSTREAM" provider-name="iSTREAM">
+<addon id="script.icechannel" version="1.0.0.0" name="iSTREAM" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="0.0.1"/>
@@ -27,6 +27,8 @@
 		<import addon="script.module.socksipy" version="0.0.1"/>
 		<import addon="script.module.dnspython" version="0.0.1"/>
 		<import addon="script.module.f4mproxy" version="0.0.1"/>
+		<import addon="script.istream.dialogs" version="0.0.1"/>
+		<import addon="script.icechannel.extn.xunity.tv.common" version="0.0.1"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py" >
 		<provides>video</provides>
@@ -64,7 +66,7 @@
     </extension>
 </addon>
 
-<addon id="script.icechannel.extn.uk" version="0.0.4" name="iSTREAM - United Kingdom" provider-name="iSTREAM">
+<addon id="script.icechannel.extn.uk" version="0.0.5" name="iSTREAM - United Kingdom" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -72,6 +74,24 @@
     <extension point="xbmc.addon.metadata">
 		<summary lang="en">iSTREAM - United Kingdom</summary>
 		<description lang="en">iSTREAM - United Kingdom</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+
+<addon id="script.icechannel.extn.xunity.tv.common" version="0.0.5" name="Xunity TV - Common" provider-name="xunity.tv">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension library="default.py" point="xbmc.service" />
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">Xunity TV - Common</summary>
+		<description lang="en">Xunity TV - Common</description>
 		<platform></platform>
 		<language></language>
 		<license></license>
@@ -110,6 +130,24 @@
 <source></source>
 <email></email>
 </extension>
+</addon>
+
+<addon id="script.istream.dialogs" version="0.0.4" name="iSTREAM Custom Windows and Dialogs" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">iSTREAM Custom Windows and Dialogs</summary>
+		<description lang="en">Custom UI (Windows and Dialogs) for iSTREAM</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
 </addon>
 
 <addon id="script.module.dnspython" name="DNS Python" version="1.11.1" provider-name="dnspython">
