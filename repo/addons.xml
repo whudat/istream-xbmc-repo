@@ -66,7 +66,7 @@
     </extension>
 </addon>
 
-<addon id="script.icechannel.extn.uk" version="0.0.5" name="iSTREAM - United Kingdom" provider-name="iSTREAM">
+<addon id="script.icechannel.extn.uk" version="0.0.6" name="iSTREAM - United Kingdom" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
