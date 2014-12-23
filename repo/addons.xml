@@ -132,7 +132,7 @@
 </extension>
 </addon>
 
-<addon id="script.istream.dialogs" version="0.0.5" name="iSTREAM Custom Windows and Dialogs" provider-name="iSTREAM">
+<addon id="script.istream.dialogs" version="0.0.6" name="iSTREAM Custom Windows and Dialogs" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
