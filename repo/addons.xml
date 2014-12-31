@@ -22,7 +22,7 @@
 		<import addon="script.module.metahandler" version="0.0.1"/>
 		<import addon="script.module.feedparser" version="0.0.1"/>
 		<import addon="script.module.pyamf" version="0.0.1"/>
-		<import addon="script.icechannel.extn.common" version="0.0.9"/>
+		<import addon="script.icechannel.extn.common" version="0.0.1"/>
 		<import addon="script.module.unidecode" version="0.0.1"/>
 		<import addon="script.module.socksipy" version="0.0.1"/>
 		<import addon="script.module.dnspython" version="0.0.1"/>
@@ -103,33 +103,33 @@
 </addon>
 
 <addon id="script.icechannel.theme.xunity" version="0.0.1" name="iStream Theme - Xunity" provider-name="iStream">
-<extension library="default.py" point="xbmc.service" />
-<extension point="xbmc.addon.metadata">
-<summary lang="en">iStream Theme - Xunity</summary>
-<description lang="en">iStream Theme - Xunity</description>
-<platform></platform>
-<language></language>
-<license></license>
-<forum></forum>
-<website></website>
-<source></source>
-<email></email>
-</extension>
+	<extension library="default.py" point="xbmc.service" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">iStream Theme - Xunity</summary>
+		<description lang="en">iStream Theme - Xunity</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+	</extension>
 </addon>
 
 <addon id="script.icechannel.theme.xunityhd" version="0.0.1" name="iStream Theme - Xunity HD" provider-name="iStream">
-<extension library="default.py" point="xbmc.service" />
-<extension point="xbmc.addon.metadata">
-<summary lang="en">iStream Theme - Xunity HD</summary>
-<description lang="en">iStream Theme - Xunity HD</description>
-<platform></platform>
-<language></language>
-<license></license>
-<forum></forum>
-<website></website>
-<source></source>
-<email></email>
-</extension>
+	<extension library="default.py" point="xbmc.service" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">iStream Theme - Xunity HD</summary>
+		<description lang="en">iStream Theme - Xunity HD</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+	</extension>
 </addon>
 
 <addon id="script.istream.dialogs" version="0.0.6" name="iSTREAM Custom Windows and Dialogs" provider-name="iSTREAM">
@@ -168,10 +168,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.f4mproxy"
-	     name="f4m proxy"
-	     version="1.0.16"
-	     provider-name="Shani">
+<addon id="script.module.f4mproxy" name="f4m proxy" version="1.0.16" provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -183,16 +180,11 @@
   </extension>
 </addon>
 
-<addon id="script.module.socksipy"
-       name="SocksiPy"
-       version="2.0.0"
-       provider-name="Mossy">
+<addon id="script.module.socksipy" name="SocksiPy" version="2.0.0" provider-name="Mossy">
   <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary>A Python SOCKS client module</summary>
     <description>Provides a socket-like interface that supports connections to any TCP service through the use of a SOCKS4, SOCKS5 or HTTP proxy. For usage see http://code.google.com/p/socksipy-branch/</description>
@@ -206,16 +198,11 @@
   </extension>
 </addon>
 
-<addon id="script.module.unidecode"
-       name="Unidecode"
-       version="0.4.14"
-       provider-name="Pypi">
+<addon id="script.module.unidecode" name="Unidecode" version="0.4.14" provider-name="Pypi">
   <requires>
-    <import addon="xbmc.python"
-    		version="2.1.0"/>
+    <import addon="xbmc.python"	version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary>Python Unidecode  module</summary>
     <description>ASCII transliterations of Unicode text</description>
