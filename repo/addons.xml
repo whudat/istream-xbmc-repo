@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="1.0.0.16" name="iSTREAM" provider-name="iSTREAM">
+<addon id="script.icechannel" version="1.0.0.17" name="iSTREAM" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver" version="0.0.1"/>
@@ -30,6 +30,7 @@
 		<import addon="script.istream.dialogs" version="0.0.1"/>
 		<import addon="script.icechannel.extn.xunity.tv.common" version="0.0.1"/>
         <import addon="script.module.elementtree" version="1.2.8" />
+        <import addon="script.module.requests" version="0.0.1" />
     </requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py" >
 		<provides>video</provides>
