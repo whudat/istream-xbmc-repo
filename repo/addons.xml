@@ -50,7 +50,7 @@
     </extension>
 </addon>
 
-<addon id="script.icechannel.extn.common" version="0.1.8" name="iSTREAM - Common" provider-name="iSTREAM">
+<addon id="script.icechannel.extn.common" version="0.1.9" name="iSTREAM - Common" provider-name="iSTREAM">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
